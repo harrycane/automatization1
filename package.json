@@ -4,14 +4,14 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp": "^3.8.11",
+    "gulp": "^4.0.0",
     "gulp-concat": "^2.5.2",
     "gulp-rigger": "^0.5.8",
     "gulp-uglify": "^1.1.0"
   },
   "devDependencies": {
     "browser-sync": "^2.4.0",
-    "gulp": "^3.8.11",
+    "gulp": "^4.0.0",
     "gulp-autoprefixer": "^2.1.0",
     "gulp-concat": "^2.5.2",
     "gulp-csscomb": "^3.0.3",
