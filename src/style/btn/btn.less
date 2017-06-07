@@ -1,0 +1,33 @@
+.btn{
+  border-radius: 30px;
+  padding: 7px 25px;
+  text-align: center;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  letter-spacing: 1px;
+  margin: 30px 10px;
+  box-shadow:0 2px 3px rgba(0,0,0,0.1);
+  &:focus{
+    outline: none;
+  }
+  &:hover{
+    background:rgba(255,255,255,0.8);
+    color: #09c;
+  }
+  &:active{
+    background:rgba(255,255,255,0.8);
+    color: #09c;
+    box-shadow: inset 0px 2px 3px 2px rgba(0,0,0,0.3);
+    border:1px solid rgba(0,0,0,0.3);
+  }
+  &.btn-active{
+    background: #fff;
+    color:#09c;
+  }
+  &.btn-active:hover{
+    background: #09c;
+    border-color: #09c;
+    color: #fff;
+  }
+}

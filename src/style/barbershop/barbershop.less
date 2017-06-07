@@ -1,0 +1,64 @@
+.barbershop {
+  background-image: linear-gradient(-85deg, rgb(53, 138, 199) 0%, rgb(116, 116, 191) 100%);
+  padding: 40px;
+
+  &-container {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #fff;
+    margin: 30px auto;
+    width: 60%;
+    padding: 20% 40px;
+    position: relative;
+    border-radius: 10px;
+    background: url(../img/barber.jpeg) center center no-repeat;
+    background-size: cover;
+    box-shadow: 0 26px 59.94px 21.06px rgba(0, 0, 0, 0.48);
+    overflow: hidden;
+
+    &:after {
+      content: "";
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0.8;
+      background-image: linear-gradient(to top, rgb(49, 126, 181) 0%, rgb(0, 229, 211) 98%);
+    }
+  }
+  &-heading {
+    color: #fff;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+    left: 0;
+    top: 40%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 4vw;
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+  }
+  &-buttons {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    left: 0;
+  }
+  &-phone {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    z-index: 2;
+  }
+  &-phone {
+    & > a {
+      color: #fff;
+      text-decoration: none;
+      letter-spacing: 1px;
+    }
+  }
+}
